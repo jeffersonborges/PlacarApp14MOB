@@ -59,6 +59,8 @@ public class GameActivity extends AppCompatActivity {
     public void zeraplacar(View v){
         golCasa=0;
         golVisitante=0;
+        tvPlacarCasa.setText(String.valueOf(golCasa));
+        tvPlacarVisitante.setText(String.valueOf(golVisitante));
     }
 
     @Override

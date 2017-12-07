@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gol">Gol</string>
+    <string name="label_desenvolvido_por">Desenvolvido por Jefferson Borges</string>
+    <string name="label_titulo">Times</string>
+    <string name="zeraplacar">Zerar placar</string>
+</resources>
