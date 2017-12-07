@@ -2,4 +2,7 @@
     <string name="app_name">PlacarApp</string>
     <string name="label_titulo">Times</string>
     <string name="label_desenvolvido_por">Desenvolvido por Jefferson Borges</string>
+    <string name="placar_inicial">0</string>
+    <string name="gol">Gol</string>
+    <string name="zeraplacar">Zerar placar</string>
 </resources>
