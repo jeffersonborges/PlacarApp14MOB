@@ -9,10 +9,10 @@
     </style>
 
     <style name="padrao">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_weight">0.5</item>
-    <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">center</item>
     </style>
 
     <style name="placar" parent="padrao">
@@ -20,9 +20,7 @@
         <item name="android:textSize">40sp</item>
     </style>
 
-    <style name="nometime" parent="padrao">
-
-    </style>
+    <style name="nometime" parent="padrao"></style>
 
     <style name="botao_gol" parent="padrao">
         <item name="android:text">@string/gol</item>
@@ -32,4 +30,9 @@
         <item name="android:text">@string/zeraplacar</item>
     </style>
 
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
 </resources>
