@@ -35,7 +35,8 @@
             android:id="@+id/etTimeCasa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Digite o nome do time da Casa" />
+            android:hint="Digite o nome do time da Casa"
+            android:inputType="textCapSentences"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -46,7 +47,8 @@
             android:id="@+id/etTimeVisitante"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Digite o nome do time Visitante" />
+            android:hint="Digite o nome do time Visitante"
+            android:inputType="textCapSentences"/>
 
         <Button
             android:layout_width="match_parent"
